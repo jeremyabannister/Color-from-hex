@@ -6,7 +6,7 @@
 //
 
 ///
-@_exported import HexadecimalColorCode_module
+@_exported import StandardHexadecimalColorCode_module
 @_exported import SwiftUI
 
 
@@ -14,15 +14,15 @@
 extension Color {
     
     ///
-    public init (hexCode: HexadecimalColorCode) {
+    public init (hexCode: StandardHexadecimalColorCode) {
         
         ///
         self.init(
             .sRGB,
-            red: Double(hexCode.red256) / 255,
-            green: Double(hexCode.green256) / 255,
-            blue: Double(hexCode.blue256) / 255,
-            opacity: Double(hexCode.alpha256) / 255
+            red: Double(hexCode.red) / 255,
+            green: Double(hexCode.green) / 255,
+            blue: Double(hexCode.blue) / 255,
+            opacity: Double(hexCode.alpha) / 255
         )
     }
 }

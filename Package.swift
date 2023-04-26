@@ -17,7 +17,7 @@ let package = Package(
         
         ///
         .package(
-            url: "https://github.com/jeremyabannister/HexadecimalColorCode-module",
+            url: "https://github.com/jeremyabannister/StandardHexadecimalColorCode-module",
             "0.1.0" ..< "0.2.0"
         )
     ],
@@ -25,7 +25,7 @@ let package = Package(
         .target(
             name: "Color-from-hex",
             dependencies: [
-                "HexadecimalColorCode-module",
+                "StandardHexadecimalColorCode-module",
             ]
         ),
         .testTarget(
