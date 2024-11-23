@@ -5,8 +5,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jeremyabannister/ColorCode-RGBA-256-package",
       "state" : {
-        "revision" : "20307085dccc320a9df7cfc39a2d4733e7c684db",
-        "version" : "0.1.0"
+        "revision" : "4ada36fb784bbff6367403b66dd1bbbcc3c9a330",
+        "version" : "0.1.2"
+      }
+    },
+    {
+      "identity" : "randomlygeneratable-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/jeremyabannister/RandomlyGeneratable-package",
+      "state" : {
+        "revision" : "b57bbaee772f7f6b2c1ac4797bc298a2831980fc",
+        "version" : "0.1.1"
       }
     },
     {
@@ -14,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/jeremyabannister/StandardHexadecimalColorCode-package",
       "state" : {
-        "revision" : "b187e5ae3a10229c0746f2663787046faf2da29e",
-        "version" : "0.1.0"
+        "revision" : "9cfc2491310a968f3232fb2533f456862fba7cb0",
+        "version" : "0.1.1"
       }
     }
   ],
